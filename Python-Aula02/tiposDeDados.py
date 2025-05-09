@@ -2,10 +2,18 @@
 # Inteiros(int) -> 1; 2; 3...
 # Decimal(float) -> 1.23; 345.8; 94.27...
 
+# Tipo Lógico:
+# Booleano (True or False) -> mais usados na verificação de resultados de expressões relacionais e lógicas
+# - Expressões Relacionais -> são aquelas que realizam uma comparação entre duas expressões e retornam:
+# - False, se o resultado for falso; True, se o resultado for verdadeiro
+
 # Função que retorna o tipo de determinada variável: 
 # type(variavel)
 
-# Representação dos números em diferentes bases
+# Representação dos números em diferentes bases:
+# Base decimal:
+# - 531 = 5 * 10^2 + 3 * 10^1 * 10^0
+# - 1024 = ???
 # Base binária (0 ou 1):
 # - 1010 = ??? (10 na base decimal)
 # Base octal: 
