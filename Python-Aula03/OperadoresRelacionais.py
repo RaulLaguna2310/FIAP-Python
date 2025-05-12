@@ -35,4 +35,11 @@
 # else: 
 #     print("NÃO TAXADO")
 
-#
+# Exercício 4:
+# condSal = True
+# emprestimo = True
+# 
+# if condSal == True:
+#     print(emprestimo)
+# else:
+#     print(not emprestimo)

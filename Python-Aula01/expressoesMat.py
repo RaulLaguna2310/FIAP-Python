@@ -11,7 +11,7 @@
 # ** -> * -> % -> / ou // -> + -> -
 # A ordem pode ser alterada utilizando "()"
 
-# Podemos atribuir contas a variaveis e exibilas utilizando "print"
+# Podemos atribuir contas a variaveis e exibi-las utilizando "print"
 
 # Exercício 1 :
 # conta1 = 10 + 20 * 30
