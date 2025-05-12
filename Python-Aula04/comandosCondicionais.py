@@ -54,4 +54,41 @@
 # 
 # print(f"Seu novo salário é de: R${novoSalario}")
 
+# Exercício 4:
+# numero = int(input("Digite um número: "))
+# 
+# Verifica se é par ou ímpar (usando o operador %)
+# if numero % 2 == 0:
+#     if numero < 100:
+#         print("Par e menor que 100")
+#     else:
+#         print("Par e maior ou igual a 100")
+# else:
+#     if numero < 100:
+#         print("Ímpar e menor que 100")
+#     else:
+#         print("Ímpar e maior ou igual a 100")
 
+# Exercício 5: 
+# numero = int(input("Digite um número: "))
+
+# if numero % 2 == 0 and numero < 100:
+#     print("Par e menor que 100")
+# elif numero % 2 == 0 and numero >= 100:
+#     print("Par e maior ou igual a 100")
+# elif numero % 2 != 0 and numero < 100:
+#     print("Ímpar e menor que 100")
+# else:
+#     print("Ímpar e maior ou igual a 100")
+
+# Exercício 6: 
+# distancia = float(input("Digite a distância que será percorrida (KM): "))
+
+# if distancia <= 200:
+#     preco = distancia * 0.50
+#     print(f"A sua viagem vai custar: {preco}")
+# elif distancia > 200:
+#     preco = distancia * 0.45
+#     print(f"A sua viagem vai custar: {preco}")
+# else:
+#     print("Distância inválida")
