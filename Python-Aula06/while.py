@@ -2,7 +2,7 @@
 # comando que deve ser executado mais de uma vez;
 # Utiliza uma condição para determinar se deve continuar ou não a execução;
 
-# While:
+# Laço de Repetição "while":
     # O bloco será repetido enquanto a condição for verdadeira;
     # Após a execução do bloco, a condição é verificada novamente;
     # while <condição>:
@@ -14,6 +14,9 @@
     # Se a condição já for falsa, o bloco de código não será executado;
     # Deve haver algum processo dentro do laço que altere a condição para 
     # falsa em algum momento, para evitar um loop infinito; 
+    # Break e Continue: Comandos que permitem alterar o fluxo da estrutura de repetição;
+        # Break: Interrompe o laço imediatamente, saindo dele;
+        # Continue: Pula a iteração atual e continua com a próxima iteração do laço;
 
 # Exercício 1:
 # i = 2
@@ -86,3 +89,21 @@
 #     resultado = numero * numeroInicial
 #     print(f"{numero} x {numeroInicial} = {resultado}")
 #     numeroInicial += 1
+
+# Exercício 9:
+# numero = int(input("Digite um número inteiro positivo ou (0 para sair): "))
+# 
+# while numero != 0:
+#     print(f"Você digitou o número: {numero}")
+
+# Exercício 10:
+# while True:
+#     numero = int(input("Digite um número inteiro positivo ou (0 para sair): "))
+#     
+#     if numero == 0:
+#         print("Saindo do programa...")
+#         break
+#     
+#     print(f"Você digitou o número: {numero}")
+
+  
